@@ -178,6 +178,10 @@ ul.topnav {
 }
 
 .flashcard:hover .flashcard-inner {
+    transform: scale(1.05);
+}
+
+.flashcard.flip .flashcard-inner {
     transform: rotateY(180deg);
 }
 
@@ -331,6 +335,3 @@ ul.topnav {
     .restart-btn:hover {
         background-color: #0056b3;
     }
-
-
-
