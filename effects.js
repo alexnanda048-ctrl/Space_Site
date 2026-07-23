@@ -13,6 +13,14 @@ for (i = 0; i < coll.length; i++) {
     });
 }
 
+var flipcard = document.getElementsByClassName("flashcard");
+for (var j = 0; j < flipcard.length; j++) {
+    flipcard[j].addEventListener("click", function () {
+        this.classList.toggle("flip");
+    });
+}
+
+
 
 const quizData = [
     {
@@ -107,5 +115,3 @@ restartBtn.addEventListener('click', () => {
 
 // Initialize the quiz with the first question
 loadQuestion();
-
-
