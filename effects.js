@@ -40,7 +40,7 @@ const quizData = [
     },
     {
         question: "What is the largest planet in our solar system?",
-        options: ["Earth", "Mars", "Jupiter", "Saturn"],
+        options: ["Earth", "Mars", "Saturn", "Jupiter"],
         answer: "Jupiter"
     },
     {
