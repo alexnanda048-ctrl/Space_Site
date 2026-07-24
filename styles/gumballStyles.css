@@ -142,7 +142,7 @@ ul.topnav {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: orange;
+    background-color: darkorange;
 }
 
     ul.topnav li a {
@@ -153,7 +153,7 @@ ul.topnav {
     }
 
         ul.topnav li a:hover {
-            background-color: darkorange;
+            background-color: #cc7000;
             color: white;
         }
 
