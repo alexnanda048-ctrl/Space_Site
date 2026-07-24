@@ -15,7 +15,7 @@ header {
 
 h1 {
     color: white;
-    font-family: 'Chewy', cursive, sans-serif;
+    font-family: 'Chewy', serif, sans-serif;
     -webkit-text-stroke: 4px orange;
     text-align: center;
     font-size: 8.0rem;
