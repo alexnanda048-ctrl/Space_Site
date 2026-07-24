@@ -325,6 +325,8 @@ ul.topnav {
     display: flex;
     display: none;
     justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .title {
