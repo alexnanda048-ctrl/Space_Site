@@ -218,13 +218,26 @@ ul.topnav {
     box-sizing: border-box;
 }
 
-.row{
+.row {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     flex-wrap: wrap;
+    padding: 0 90px;
     width: 100%;
-    gap:300px;
+    box-sizing: border-box;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .row {
+        gap: 15px;
+    }
+
+    .flashcard {
+        width: 150px;
+        height: 200px;
+    }
 }
 
 
